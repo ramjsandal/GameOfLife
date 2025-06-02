@@ -1,7 +1,7 @@
 #include <iostream>
 #include <unistd.h>
 #include <stdlib.h>
-#include "GameOfLife.hpp"
+#include "../include/GameOfLife.hpp"
 using namespace std;
 
 

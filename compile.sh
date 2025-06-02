@@ -1,1 +1,1 @@
-exec g++ *.cpp -o prog
+exec g++ ./src/*.cpp -o prog

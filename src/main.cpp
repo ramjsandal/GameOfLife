@@ -1,4 +1,4 @@
-#include "GameOfLife.hpp"
+#include "../include/GameOfLife.hpp"
 #include <iostream>
 #include <unistd.h>
 #include <stdlib.h>
