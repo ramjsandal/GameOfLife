@@ -5,6 +5,7 @@
 using namespace std;
 
 
+// Controls our game of life
 class GameOfLife {
   private:
   std::vector<std::vector<bool>> current;
