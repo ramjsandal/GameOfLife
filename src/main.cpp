@@ -1,11 +1,11 @@
 #include "../include/GameOfLife.hpp"
 #include <iostream>
-#include <unistd.h>
 #include <stdlib.h>
+#include <unistd.h>
 using namespace std;
 
 int main() {
-  GameOfLife* gol = new GameOfLife();
+  GameOfLife *gol = new GameOfLife();
   bool playing = true;
   int iteration = 0;
 
@@ -17,7 +17,6 @@ int main() {
     gol->update();
     iteration++;
     usleep(1000000);
-
   }
 
   delete gol;
